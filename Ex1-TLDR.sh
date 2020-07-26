@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TLDR_DIR=~/tmp/TLDR.$$
-cd $TLDR_DIR
+mkdir -p $TLDR_DIR && cd $TLDR_DIR
 
 wget https://raw.githubusercontent.com/utdsimmons/pearc2020/master/ex1-cf.yml
 
